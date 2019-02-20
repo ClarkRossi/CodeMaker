@@ -10,7 +10,7 @@
 
 int main (int argc, char *argv[])
 {
-	char writer; //Character varaible to hold incoming char's
+	char writer; //Character variable to hold incoming char's
 	int unchangedCount = 0; //Variable for the number of unchanged characters 
 
 	FILE *readFile = fopen(argv[1],"r"); //reads argv[1] as input file
